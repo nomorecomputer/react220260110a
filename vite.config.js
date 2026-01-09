@@ -4,7 +4,7 @@ import process from "process";
 
 // https://vite.dev/config/
 export default defineConfig({
-  server: { open: true },
+  // server: { open: true },
   base: process.env.NODE_ENV === "production" ? "/react220260110a/" : "/",
   plugins: [react()],
 });
